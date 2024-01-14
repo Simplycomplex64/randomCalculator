@@ -181,7 +181,7 @@ body {
     
     .generate-btn:hover{
         padding: 10px 30px;
-        font-size: 20px;
+        font-size: 12px;
         background-color:white;
         color: rgb(5, 41, 41);
         border:3px solid;
