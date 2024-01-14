@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.main-container {
+    width: 700px;
+    background-color: rgb(5, 41, 41);
+    border: 5px solid white;
+    border-radius: 10px;
+    padding: 50px;
+}
+
+.partOne{
+    background-color: rgb(109, 157, 141);
+    width: auto;
+    padding: 20px;
+    border-bottom: 2px solid white ;
+    border-radius: 10px;
+}
+
+.partOne h1{
+    font-size: 50px;
+    margin-bottom: 0;
+}
+
+.span1{
+    color:rgb(221, 221, 70);
+}
+
+.partOne p {
+    font-size: 20px;
+    color: whitesmoke;
+    margin-top: 0;
+}
+
+.generate-btn{
+    padding: 10px 30px;
+    font-size: 20px;
+    background-color:rgb(5, 41, 41);
+    color: white;
+    border:3px solid;
+    border-radius: 10px;
+    transition: 0.3s ease-in-out;
+    font-weight: bold;
+}
+
+.generate-btn:hover{
+    padding: 10px 30px;
+    font-size: 20px;
+    background-color:white;
+    color: rgb(5, 41, 41);
+    border:3px solid;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.partTwo{
+    background-color: black;
+    border-top: 2px solid whitesmoke;
+    border-left: 2px solid goldenrod;
+    border-right: 2px solid goldenrod;
+    border-bottom: 2px solid whitesmoke;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 0;
+}
+
+.partTwo button{
+    padding: 10px 30px;
+    font-size: 20px;
+    font-weight: bold;
+    box-shadow:0 0 10px white ;
+    background-color: black;
+    border-radius: 10px;
+    color: rgb(109, 157, 141);
+    text-shadow: 0 0 1px white;
+    transition: 0.3s ease-in-out;
+    height: 50px;
+    width: 300px;
+}
+
+.partTwo button:hover{
+    padding: 10px 30px;
+    font-size: 20px;
+    font-weight: bold;
+    box-shadow:0 0 10px black ;
+    background-color: rgb(170, 169, 169);
+    border-radius: 10px;
+    color: rgb(19, 24, 22);
+    text-shadow: 0 0 1px white;
+    height: 50px;
+    width: 300px;
+    box-shadow:0 0 10px goldenrod;
+    border: none;
+}
+
+.message{
+    color: white;
+}
