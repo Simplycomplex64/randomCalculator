@@ -9,11 +9,19 @@ body {
 }
 
 .main-container {
-    width: 700px;
+    width: 600px;
     background-color: rgb(5, 41, 41);
     border: 5px solid white;
-    border-radius: 10px;
     padding: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+    gap: 20px;
 }
 
 .partOne{
@@ -70,7 +78,9 @@ body {
     padding: 20px;
     margin-top: 50px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
     gap: 30px;
     margin-top: 0;
 }
@@ -86,20 +96,17 @@ body {
     text-shadow: 0 0 1px white;
     transition: 0.3s ease-in-out;
     height: 50px;
-    width: 300px;
+    width: 250px;
 }
 
 .partTwo button:hover{
     padding: 10px 30px;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bold;
-    box-shadow:0 0 10px black ;
     background-color: rgb(170, 169, 169);
     border-radius: 10px;
     color: rgb(19, 24, 22);
     text-shadow: 0 0 1px white;
-    height: 50px;
-    width: 300px;
     box-shadow:0 0 10px goldenrod;
     border: none;
 }
@@ -136,12 +143,11 @@ body {
         justify-content: center;
         align-items: center;
         text-align: center;
-        height: 350px;
-        margin-bottom: 50px;
         position: relative;
         top: 20px;
         border-left: 2px solid goldenrod;
         border-right: 2px solid goldenrod;
+        padding: 40px;
     }
     
     .partOne h1{
@@ -196,14 +202,17 @@ body {
         border-right: 2px solid goldenrod;
         border-bottom: 2px solid whitesmoke;
         border-radius: 10px;
-        padding-bottom: 0;
-        margin-top: 50px;
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        gap: 30px;
-        margin-top: 0;
-        height: 240px;
+        justify-content: space-between;
+        padding: 0;
+
+    }
+
+    .buttons{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 30px;
     }
     
     .partTwo button{
@@ -216,8 +225,6 @@ body {
         color: rgb(109, 157, 141);
         text-shadow: 0 0 1px white;
         transition: 0.3s ease-in-out;
-        height: 50px;
-        width: auto;
     }
     
     .partTwo button:hover{
@@ -229,8 +236,6 @@ body {
         border-radius: 10px;
         color: rgb(19, 24, 22);
         text-shadow: 0 0 1px white;
-        height: 50px;
-        width: 300px;
         box-shadow:0 0 10px goldenrod;
         border: none;
     }
@@ -238,7 +243,5 @@ body {
     .message{
         color: white;
         font-size: 14px;
-        position: relative;
-        top: 55px;
     }
 }
